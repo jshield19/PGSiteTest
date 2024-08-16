@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+        <title>Blank Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <!-- Custom styles for this template -->
+        <script>/* Pinegrow Interactions, do not remove */ try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id')?document.documentElement.hasAttribute('data-pg-mobile'):(screen.width<1000&&screen.height<1000)){pgcss+='html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}';}else{pgcss+='html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}';}style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}</script>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body data-pg-ia-scene='{"smooth":"0","s":"whole","s_t":"top","s_s":"top","e_t":"bottom","e_s":"bottom","pint":"#section4","snap_sel":"section","snap_durmax":"0.5","pag":"e","pag_t":"section","pag_i":"nav .nav-item a","pag_pa":"MakeActive,PlayMoveTile","pag_tc":"55"}' style="padding-top: 55px;">
+        <header class="bg-white" data-pg-dyn-id="did_0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="#">My Page</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;PositionTileOnOpen&quot;,&quot;trg&quot;:&quot;click&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;^nav|.active-tile&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;autoAlpha&quot;:0}},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0.4,&quot;d&quot;:0.15,&quot;l&quot;:{&quot;pgia&quot;:{&quot;play&quot;:&quot;MoveTile&quot;}}},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0.55,&quot;d&quot;:0.13,&quot;l&quot;:{&quot;autoAlpha&quot;:1}}]}]},&quot;pdef&quot;:&quot;true&quot;,&quot;rcr&quot;:&quot;true&quot;}]}"><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="active-tile" data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;MoveTile&quot;,&quot;trg&quot;:&quot;no&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;$.active-tile&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.28,&quot;l&quot;:{&quot;pgPos&quot;:{&quot;pos&quot;:&quot;center&quot;,&quot;width&quot;:104,&quot;tsel&quot;:&quot;^nav|.nav-item.active a&quot;}}}]}]},&quot;rstr&quot;:&quot;true&quot;}]}"></div>
+                    <ul class="navbar-nav" style="z-index: 1; position: relative;">
+                        <li class="nav-item"><a class="nav-link" href="#hero" data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;ScrollOnClick&quot;,&quot;trg&quot;:&quot;click&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;^body&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.59,&quot;l&quot;:{&quot;scrollTo&quot;:{&quot;dest&quot;:&quot;${target.href}&quot;}}},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.59,&quot;l&quot;:{&quot;history.push&quot;:&quot;${target.href}&quot;},&quot;m&quot;:true}]},{&quot;t&quot;:&quot;&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.3,&quot;l&quot;:{&quot;pgia&quot;:{&quot;play&quot;:&quot;MakeActive&quot;}}}]},{&quot;t&quot;:&quot;^nav|.active-tile&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.3,&quot;l&quot;:{&quot;pgia&quot;:{&quot;play&quot;:&quot;MoveTile&quot;}}}]}]},&quot;pdef&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;MakeActive&quot;,&quot;trg&quot;:&quot;no&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;^nav|.nav-item.active&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;set&quot;,&quot;p&quot;:0,&quot;d&quot;:0,&quot;l&quot;:{&quot;class.remove&quot;:&quot;active&quot;}}]},{&quot;t&quot;:&quot;^.nav-item&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.05,&quot;l&quot;:{&quot;class.add&quot;:&quot;active&quot;}}]},{&quot;t&quot;:&quot;this&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:0.5,&quot;l&quot;:{&quot;color&quot;:&quot;#f500db&quot;}}],&quot;m&quot;:true}]},&quot;rcr&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;PlayMoveTile&quot;,&quot;trg&quot;:&quot;no&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;^nav|.active-tile&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0.1,&quot;d&quot;:0.4,&quot;l&quot;:{&quot;pgia&quot;:{&quot;play&quot;:&quot;MoveTile&quot;}}}]}]},&quot;rstr&quot;:&quot;true&quot;}]}" data-pg-ia-apply="^nav|a[href^=&quot;#&quot;]">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#section1">Section 1</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#section2">Section 2</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#section3">Section 3</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#section4">Section 4</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#section5">Section 5</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section style="padding-top: 120px; padding-bottom: 120px; min-height: 300px; color: #ffffff; background-size: cover; background-repeat: no-repeat; background-image: url('https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjIwOTIyfQ');" id="hero" data-pg-ia-scene="{&quot;dir&quot;:&quot;a&quot;,&quot;s&quot;:&quot;custom&quot;,&quot;s_t&quot;:&quot;start&quot;,&quot;s_s&quot;:&quot;end&quot;,&quot;e_t&quot;:&quot;end&quot;,&quot;e_s&quot;:&quot;start&quot;,&quot;l&quot;:[{&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:1,&quot;l&quot;:{&quot;pgia&quot;:{&quot;play&quot;:&quot;HideContent&quot;}}},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:1,&quot;d&quot;:8,&quot;l&quot;:{&quot;pgia&quot;:{&quot;play&quot;:&quot;ShowContent&quot;,&quot;once&quot;:1}}},{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:9,&quot;d&quot;:1,&quot;l&quot;:{&quot;pgia&quot;:{&quot;play&quot;:&quot;HideContent&quot;}}}]}]},&quot;p&quot;:&quot;scroll&quot;,&quot;sc_dir&quot;:&quot;up_down&quot;,&quot;rep&quot;:&quot;true&quot;}],&quot;smooth&quot;:&quot;0&quot;}" data-pg-ia="{&quot;l&quot;:[{&quot;name&quot;:&quot;ShowContent&quot;,&quot;trg&quot;:&quot;no&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;h1,h2,p&quot;,&quot;l&quot;:[{&quot;t&quot;:&quot;tween&quot;,&quot;p&quot;:0,&quot;d&quot;:1,&quot;s&quot;:0.5,&quot;l&quot;:{&quot;autoAlpha&quot;:1}}]}],&quot;desc&quot;:&quot;Customize this animation to show the content when the section comes into view.&quot;}},{&quot;name&quot;:&quot;HideContent&quot;,&quot;trg&quot;:&quot;no&quot;,&quot;a&quot;:{&quot;l&quot;:[{&quot;t&quot;:&quot;&quot;,&quot;l&quot;:[]}],&quot;desc&quot;:&quot;Customize to hide the content when the section goes out of view. Not needed if you want to reveal the content only once. If hiding content, also remove Show Once in Scroll Scene animation.&quot;}}]}" data-pg-ia-apply="$section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="display-3" data-pg-ia-hide="">Dr. Michaela Shields</h1>
+                        <p class="lead" data-pg-ia-hide="">Clinical Neuropsychologist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-11 col-md-6">
+                        <h2 data-pg-ia-hide="">About:</h2>
+                        <p data-pg-ia-hide="" class="display-5 text-body">Dr. Shields is a Clinical Neuropsychologist at the Utah State Hospital and Affiliate Faculty at Brigham Young University. She serves as the liaison between the Utah State Hospital and BYU for the completion of a clinical trial investigating the effects of Cognitive Remediation for an inpatient psychiatric population. Her clinical interests include geriatric neuropsychological assessment, neurodegenerative disorders, and cognitive remediation. Her other interests include hiking, skiing, and spending time with my corgi, Winston.</p>
+                        <img src="04022024_DSC00312_41.jpg" width="1050" sizes="88vw,
+(min-width: 576px) 97vw" class="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p></p>
+        <p></p>
+        <p class=""></p>
+        <p></p>
+        <section data-pg-class-style="section" id="section2" style="background-color: #eeeeee;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 data-pg-ia-hide="">Education:</h2>
+                        <p data-pg-ia-hide=""></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-6">
+                        <p data-pg-ia-hide="" class="align-top d-inline display-5 shadow-none">08/2017 &ndash; 07/2022 Doctor of Psychology, PsyD Clinical Psychology Training Program (APA-Accredited) Georgia Southern University (GSU) Dissertation: Developmental and Individual Differences in Visual Word Search Dissertation Chair: Ty W. Boyer, Ph.D.<br><br>08/2017 &ndash; 05/2020 Master of Science Clinical Psychology Training Program (APA-Accredited) Georgia Southern University (GSU)<br><br>08/2012 &ndash; 12/2016 Bachelor of Arts (Magna Cum Laude) University of North Carolina at Wilmington (UNCW) Major: Psychology; Minors: Biology, Neuroscience, Criminology Thesis: A Placebo-Control Evaluation of Neurofeedback Efficacy in Adults with ADHD Thesis Chair: Julian Keith, Ph.D..<br><br></p>
+                        <img src="04022024_DSC00278_7.jpg" width="1050" height="650" sizes="4000px" style="display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:100px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 data-pg-ia-hide="">Clinical Faculty Positon:</h2>
+                        <p data-pg-ia-hide="" class="display-5 text-body">03/2023 &ndash; Present Utah State Hospital &ndash; Provo, Utah Staff Neuropsychologist, formerly Staff Psychologist.<br><br>The Utah State Hospital is an inpatient psychiatric hospital that serves the state of Utah.
+Populations served include pediatric (youth and adolescents ages 8-18), civilly committed adults and older
+adults, and adults remanded by the courts. The Neuropsychology Post-Doctoral Training Position adheres to the
+standards set forth by APPCN and is an APPCN member program.<br></p>
+                        <img src="https://pinegrow.com/placeholders/img12.jpg" width="1050" height="450">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section4" style="background-color: #eeeeee;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 data-pg-ia-hide="">Post-Doctoral Fellowship:</h2>
+                        <p data-pg-ia-hide="" class="display-5 font-weight-light text-body"><b class="display-5 text-body">08/01/2022 &ndash; 07/31/2024 Utah State Hospital &ndash; Provo, Utah
+Neuropsychology Post-Doctoral Fellow
+Supervisors: Thad Q. Lloyd, Ph.D. Marc Steed, Ph.D., &amp; Derin Cobia, Ph.D.
+APPCN Sponsor: Shawn Gale, Ph.D., ABPP-CN</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6">
+                        <h2 data-pg-ia-hide="">RESEARCH PAPERS &amp; PRESENTATIONS (Formerly published as Michaela Simpson)</h2>
+                        <p data-pg-ia-hide=""><b>Publications:</b><br><br>Simpson, M. D., Klibert, J. J., Pritulsky, C. L., &amp; Weiss, B. J. (2023). The conditional effects of savoring on
+the relationship between minority stress and alcohol misuse in an LGBTQIA+ sample. Substance Use
+and Misuse, 58(1).
+M. Shields, Page 6 of 11<br><br>Klibert, J., Simpson M. D., &hellip; (2023) Increasing character strength knowledge, interest, and skill: Preliminary
+evidence for a collaborative and multimethod assessment procedure. Frontiers in Psychology, Positive
+Psychology.<br><br><b>Manuscripts Under Review:<br></b><br>Klibert, J., DiGregorio, N., Houseman, H., Simpson, M. D., Edward, D., Murphy, E., &amp; van Zyl, L. (2023).
+Identification and structure of LGBTQIA+ strengths: An empowered and constructionist investigation.
+Manuscript in review.</p>
+                        <p data-pg-ia-hide=""></p>
+                        <p data-pg-ia-hide="">Simpson, M. D., LoParo, D., Klibert, J., &amp; Lamais, D. A. (2020). Practitioner comfort and confidence in
+suicide care with native americans: A preliminary examination of the zero suicide workforce survey.
+Manuscript in review.<br><br><b>Symposium Presentations:</b></p>
+                        <p data-pg-ia-hide="">Simpson, M. D., &amp; Bean, A. (2022). Flex Your Cortex: Overview and Application of Cognitive Remediation
+Across the Lifespan [Conference Presentation]. Conference presentation presented at Generations
+Annual Behavioral Health Conference, Salt Lake City, UT.
+</p>
+                        <p data-pg-ia-hide="">Weiss, B. J., Thweatt, C., &amp; Simpson, M. D. (2020). Identifying and Addressing Mental Health Needs of
+Sexual Minorities with PTSD Symptoms. In M. Franz (Chair), &ldquo;Extensions of Culturally Sensitive
+Trauma-Informed Care to Diverse Populations.&rdquo; Symposium presentation presented at the annual
+meeting of the Association for Behavioral and Cognitive Therapies, Philadelphia, PA.
+</p>
+                        <p data-pg-ia-hide=""><b>Poster Presentations:<br></b><br>Chipman, S. P., Knowlton, S. J., Osmond, A., Stabler, S., Simpson, M. D., &amp; Kirwan, C. B. (2023). The
+effects of anterograde amnesia on mnemonic discrimination: A single-subject case study. Poster presented at
+Brigham Young University Fulton Conference. Provo, Utah. [Supervised Research of Undergraduates]<br><br>Chipman, S. P., Knowlton, S. J., Osmond, A., Stabler, S., Simpson, M. D., &amp; Kirwan, C. B. (2023). The
+effects of anterograde amnesia on mnemonic discrimination: A single-subject case study. Poster
+presented at the Utah Conference on Undergraduate Research. Orem, Utah. [Supervised Research of
+Undergraduates]<br><br>Klibert, J., Simpson, M. D. (2021). A therapeutic assessment procedure to increase character strength
+knowledge, interest, and perceived skills. Poster presented at the International Positive Psychology
+Association, 7 th IPAA World Congress.<br><br>Thweatt, C., Simpson, M. D., Law, P., &amp; Weiss, B. J. (2020). Social support moderates the relationship
+between resilience and PTSD severity. Poster presentation at the International Society for Traumatic
+Stress Studies, 36 th Annual Meeting, Virtual.<br><br>Simpson, M. D., Klibert, J., &amp; Weiss, B. J. (2020). The conditional effects of savoring on the relationship
+between minority stress and alcohol misuse in a gender and sexual minority sample. Poster presentation
+at the Annual Convention of the American Psychological Association, Virtual.<br><br>Houseman, H., Simpson, M. D., &amp; Klibert, J. (2020). Hardiness and well-being: The conditional effects of
+savoring. Poster presented at the annual convention of the American Psychological Association, Virtual.<br><br>Miller, J., Weiss, B. J., &amp; Simpson, M. D. (2020). Social support, anxiety, and disclosure among sexual
+minorities. Poster presented at the annual conference of the Southeastern Psychological Association,
+Virtual.<br><br>Simpson, M. D. (2020). Relocation for rural older adults: An investigation into the psychological context.
+Poster presented at the annual Psychology Department Diversity Fair, Georgia Southern University,
+Statesboro, GA. (Conference cancelled due to Covid-19)<br><br>Simpson, M. D. (2019). Do hope and gender moderate the relationship between anxiety and burdensomeness?
+Poster presented at the annual Psychology Department Diversity Fair, Georgia Southern University,
+Statesboro, GA.<br><br>Simpson, M. D., Novak, N., &amp; Keith, J. (2016). A placebo-control evaluation of neurofeedback efficacy in
+adults with ADHD. Poster presented at the UNCW Fall Showcase of Student Research and Creativity,
+Wilmington, NC.<br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class=" bg-dark pb-3 pt-3 text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="mb-0">Created by My Company in 2020. Enjoy!</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="pgia/lib/pgia.js"></script>
+    </body>
+</html>
